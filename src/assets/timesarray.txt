@@ -1,0 +1,410 @@
+//Red
+{
+note: 0,
+player: 'Boal',
+image: 'boal',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Red Canids',
+position: 1
+},
+{
+note: 0,
+player: 'Aegis',
+image: 'aegis',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Red Canids',
+position: 2
+},
+{
+note: 0,
+player: 'Avenger',
+image: 'avenger',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Red Canids',
+position: 3
+},
+{
+note: 0,
+player: 'Kuri',
+image: 'kuri',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Red Canids',
+position: 4
+},
+{
+note: 0,
+player: 'Titan',
+image: 'titan',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Red Canids',
+position: 5
+},
+//Loud
+{
+note: 0,
+player: 'Robo',
+image: 'robo',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Loud',
+position: 1
+},
+{
+note: 0,
+player: 'Croc',
+image: 'croc',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Loud',
+position: 2
+},
+{
+note: 0,
+player: 'Tinowys',
+image: 'tin',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Loud',
+position: 3
+},
+{
+note: 0,
+player: 'Ceos',
+image: 'ceos',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Loud',
+position: 4
+},
+{
+note: 0,
+player: 'Route',
+image: 'route',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Loud',
+position: 5
+},
+//Pain
+{
+note: 0,
+player: 'Wizer',
+image: 'wizer',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Pain',
+position: 1
+},
+{
+note: 0,
+player: 'Carioka',
+image: 'carioka',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Pain',
+position: 2
+},
+{
+note: 0,
+player: 'Dynkedo',
+image: 'dynkedo',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Pain',
+position: 3
+},
+{
+note: 0,
+player: 'Damage',
+image: 'damage',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Pain',
+position: 4
+},
+{
+note: 0,
+player: 'Bvoy',
+image: 'bvoy',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Pain',
+position: 5
+},
+//Furia
+{
+note: 0,
+player: 'Fnb',
+image: 'fnb',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Furia',
+position: 1
+},
+{
+note: 0,
+player: 'Goot',
+image: 'goot',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Furia',
+position: 2
+},
+{
+note: 0,
+player: 'Envy',
+image: 'envy',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Furia',
+position: 3
+},
+{
+note: 0,
+player: 'RedBert',
+image: 'redbert',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Furia',
+position: 4
+},
+{
+note: 0,
+player: 'Trigo',
+image: 'trigo',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Furia',
+position: 5
+},
+//Liberty
+{
+note: 0,
+player: 'Kiari',
+image: 'kiari',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Liberty',
+position: 1
+},
+{
+note: 0,
+player: 'Accez',
+image: 'accez',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Liberty',
+position: 2
+},
+{
+note: 0,
+player: 'Piloto',
+image: 'piloto',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Liberty',
+position: 3
+},
+{
+note: 0,
+player: 'Cavalo',
+image: 'cavalo',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Liberty',
+position: 4
+},
+{
+note: 0,
+player: 'Juliera',
+image: 'juliera',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Liberty',
+position: 5
+},
+//Vivo Keyd
+{
+note: 0,
+player: 'Guigo',
+image: 'guigo',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Vivo Keyd',
+position: 1
+},
+{
+note: 0,
+player: 'Hugato',
+image: 'hugato',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Vivo Keyd',
+position: 2
+},
+{
+note: 0,
+player: 'Grevthar',
+image: 'grevthar',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Vivo Keyd',
+position: 3
+},
+{
+note: 0,
+player: 'Bount',
+image: 'bount',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Vivo Keyd',
+position: 4
+},
+{
+note: 0,
+player: 'Micão',
+image: 'micao',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Vivo Keyd',
+position: 5
+},
+//Los Grandes
+{
+note: 0,
+player: 'Hirit',
+image: 'hirit',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Los Grandes',
+position: 1
+},
+{
+note: 0,
+player: 'Ranger',
+image: 'ranger',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Los Grandes',
+position: 2
+},
+{
+note: 0,
+player: 'Lava',
+image: 'lava',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Los Grandes',
+position: 3
+},
+{
+note: 0,
+player: 'Zay',
+image: 'zay',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Los Grandes',
+position: 4
+},
+{
+note: 0,
+player: 'Netuno',
+image: 'netuno',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Los Grandes',
+position: 5
+},
+//Intz
+{
+note: 0,
+player: 'Zzk',
+image: 'zzk',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Intz',
+position: 1
+},
+{
+note: 0,
+player: 'Yampi',
+image: 'yampi',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Intz',
+position: 2
+},
+{
+note: 0,
+player: 'NosFerus',
+image: 'nosferus',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Intz',
+position: 3
+},
+{
+note: 0,
+player: 'Nia',
+image: 'nia',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Intz',
+position: 4
+},
+{
+note: 0,
+player: 'NinjaKiwi',
+image: 'ninjakiwi',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Intz',
+position: 5
+},
+//Fluxo
+{
+note: 0,
+player: 'Tay',
+image: 'tay',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Fluxo',
+position: 1
+},
+{
+note: 0,
+player: 'Disamis',
+image: 'disamis',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Fluxo',
+position: 2
+},
+{
+note: 0,
+player: 'Hauz',
+image: 'hauz',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Fluxo',
+position: 3
+},
+{
+note: 0,
+player: 'Jojo',
+image: 'jojo',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Fluxo',
+position: 4
+},
+{
+note: 0,
+player: 'Brance',
+image: 'brance',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Fluxo',
+position: 5
+},
+//Kabum
+{
+note: 0,
+player: 'Lonely',
+image: 'lonely',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Kabum',
+position: 1
+},
+{
+note: 0,
+player: 'Scary',
+image: 'scary',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Kabum',
+position: 2
+},
+{
+note: 0,
+player: 'Yuri',
+image: 'yuri',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Kabum',
+position: 3
+},
+{
+note: 0,
+player: 'Scuro',
+image: 'scuro',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Kabum',
+position: 4
+},
+{
+note: 0,
+player: 'DudsTheBoy',
+image: 'duds',
+user_id: 'BkMJTm9A5mas5Tyhjw9WSLSYIbJ2',
+time: 'Kabum',
+position: 5
+}
