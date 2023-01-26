@@ -58,6 +58,16 @@ export const CardNote = styled.h1`
   color: #fff;
   font-weight: bold;
 `
+
+export const CardModal = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+`
+
 export const CardButtom = styled.button`
   padding: 5px 8px;
   font-size: 1rem;
@@ -67,4 +77,18 @@ export const CardButtom = styled.button`
   height: 30px;
   color: #000;
   background-color: #cbf400;
+  border: 0;
+`
+
+export const CardInput = styled.input`
+  width: 25%;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 10px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  padding: 2px 10px;
 `

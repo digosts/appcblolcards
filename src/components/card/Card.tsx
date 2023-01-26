@@ -6,10 +6,10 @@ import {
   Line,
   CardBody,
   CardNote,
-  CardButtom
+  CardButtom,
+  CardInput,
+  CardModal
 } from './Styles'
-
-import { updateNotePlayer, signInWithGoogle } from '../../firebase'
 
 //Loud
 import imgRobo from '../../assets/times/loud/robo.png'
@@ -81,7 +81,10 @@ import imgYuri from '../../assets/times/kabum/yuri.png'
 import imgScuro from '../../assets/times/kabum/scuro.png'
 import imgDuds from '../../assets/times/kabum/duds.png'
 
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
+import { ServiceContext } from '../../services/context/ServicesContext'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 type propscard = {
   id: string
@@ -94,6 +97,8 @@ type propscard = {
 
 export function Card(props: propscard) {
   const [imagem, setImagem] = useState('')
+  const [noteInput, setNoteInput] = useState(0)
+  const { updateUser, carregaDadosTimes } = useContext(ServiceContext)
 
   useEffect(() => {
     switch (props.image) {
@@ -262,22 +267,65 @@ export function Card(props: propscard) {
   }, [])
 
   async function alterNotePlayer(props: any) {
-    await updateNotePlayer(props.id, 50)
+    try {
+      await updateUser(props.id, noteInput)
+      await carregaDadosTimes(props.time)
+
+      toast('Nota alterada com sucesso.', {
+        position: 'top-right',
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: 'light',
+        type: 'success'
+      })
+
+      setNoteInput(0)
+    } catch (e) {
+      toast('Não foi possível alterar!', {
+        position: 'top-right',
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: 'light',
+        type: 'warning'
+      })
+    }
   }
 
   return (
-    <CardContainer>
-      <CardHeader>
-        <CardTitle>{props.name}</CardTitle>
-        <CardImage>
-          <img width={'130px'} src={imagem} alt="imagem jogador" />
-        </CardImage>
-      </CardHeader>
-      <Line />
-      <CardBody>
-        <CardNote>{props.note}</CardNote>
-        <CardButtom onClick={() => alterNotePlayer(props)}>Alterar</CardButtom>
-      </CardBody>
-    </CardContainer>
+    <>
+      <ToastContainer />
+      <CardContainer>
+        <CardHeader>
+          <CardTitle>{props.name}</CardTitle>
+          <CardImage>
+            <img width={'130px'} src={imagem} alt="imagem jogador" />
+          </CardImage>
+        </CardHeader>
+        <Line />
+        <CardBody>
+          <CardNote>{props.note}</CardNote>
+          <CardModal>
+            <CardInput
+              type="number"
+              min="0"
+              max="100"
+              value={noteInput}
+              onChange={event => setNoteInput(parseInt(event.target.value, 10))}
+            />
+            <CardButtom onClick={() => alterNotePlayer(props)}>
+              Alterar
+            </CardButtom>
+          </CardModal>
+        </CardBody>
+      </CardContainer>
+    </>
   )
 }

@@ -56,5 +56,5 @@ export const ContainerLogo = styled.div`
   justify-content: center;
   flex-direction: row;
   height: auto;
-  margin: 5% auto;
+  margin: 8% auto;
 `

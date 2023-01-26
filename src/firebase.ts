@@ -52,7 +52,7 @@ const cadastroTimes = async () => {
   } catch (e) {} */
 }
 
-const signInWithGoogle = async (time: string) => {
+const carregaDadosFirebase = async (time: string) => {
   try {
     const q = query(
       collection(db, 'usernotesplayers'),
@@ -76,11 +76,11 @@ const signInWithGoogle = async (time: string) => {
         user_id: data.user_id
       })
     })
-
     return arrayReturn
   } catch (err) {
+    let arrayReturn: propsReturn[] = []
     console.error(err)
-    return []
+    return arrayReturn
   }
 }
 
@@ -91,7 +91,7 @@ const updateNotePlayer = async (player: string, noteUpd: number) => {
     note: noteUpd
   }
 
-  setDoc(docRef, data, { merge: true })
+  await setDoc(docRef, data, { merge: true })
     .then(docRef => {})
     .catch(error => {
       alert('erro')
@@ -100,4 +100,4 @@ const updateNotePlayer = async (player: string, noteUpd: number) => {
 
 const logout = () => {}
 
-export { signInWithGoogle, logout, cadastroTimes, updateNotePlayer }
+export { carregaDadosFirebase, logout, cadastroTimes, updateNotePlayer }
