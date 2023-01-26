@@ -99,6 +99,7 @@ export function Card(props: propscard) {
   const [imagem, setImagem] = useState('')
   const [noteInput, setNoteInput] = useState(0)
   const { updateUser, carregaDadosTimes } = useContext(ServiceContext)
+  const [isDisabled, setIsDisabled] = useState(false)
 
   useEffect(() => {
     switch (props.image) {
@@ -268,6 +269,7 @@ export function Card(props: propscard) {
 
   async function alterNotePlayer(props: any) {
     try {
+      setIsDisabled(true)
       await updateUser(props.id, noteInput)
       await carregaDadosTimes(props.time)
 
@@ -284,7 +286,9 @@ export function Card(props: propscard) {
       })
 
       setNoteInput(0)
+      setIsDisabled(false)
     } catch (e) {
+      setIsDisabled(false)
       toast('Não foi possível alterar!', {
         position: 'top-right',
         autoClose: 3000,
@@ -320,8 +324,11 @@ export function Card(props: propscard) {
               value={noteInput}
               onChange={event => setNoteInput(parseInt(event.target.value, 10))}
             />
-            <CardButtom onClick={() => alterNotePlayer(props)}>
-              Alterar
+            <CardButtom
+              disabled={isDisabled}
+              onClick={() => alterNotePlayer(props)}
+            >
+              {isDisabled ? 'Aguarde...' : 'Alterar'}
             </CardButtom>
           </CardModal>
         </CardBody>
