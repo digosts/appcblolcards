@@ -18,6 +18,9 @@ export function Login() {
     if (user === 'baiapao' && password === '26012023ilha') {
       sessionStorage.setItem('@tokenBaiTv', '26012023ilha')
       window.location.reload()
+    } else if (user === 'mylin' && password === '26012023ilha') {
+      sessionStorage.setItem('@tokenBaiTv', '26012023ilha')
+      window.location.reload()
     } else {
       toast('Usuário ou senha incorretos!', {
         position: 'top-right',
